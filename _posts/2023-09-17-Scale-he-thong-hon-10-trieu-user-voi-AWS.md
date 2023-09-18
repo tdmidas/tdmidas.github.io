@@ -6,6 +6,4 @@ tags: [Cloud, AWS]
 published: true
 image:
   path: /assets/img/aws_scale.jpg
-  width: 1200
-  height: 630
 ---
