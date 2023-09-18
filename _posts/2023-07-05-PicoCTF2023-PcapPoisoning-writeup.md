@@ -5,7 +5,7 @@ categories: [CTF]
 tags: [ctf, forensics] # TAG names should always be lowercase
 published: true
 image:
-  path: /assets/img/poisonctf.png
+  path: /poisonctf.png
   alt: Forensic
 ---
 

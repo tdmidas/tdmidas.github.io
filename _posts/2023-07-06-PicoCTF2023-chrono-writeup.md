@@ -5,7 +5,7 @@ categories: [CTF]
 tags: [ctf, forensics]
 published: true
 image:
-  path: /assets/img/chrono.png
+  path: /chrono.png
   alt: Forensic
 ---
 
