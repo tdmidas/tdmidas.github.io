@@ -5,7 +5,5 @@ categories: [Tech-talk, Cloud-computing]
 tags: [Cloud, AWS]
 published: true
 image:
-  path: /assets/img/vpc.png
-  width: 1200
-  height: 630
+  path: /vpc.png
 ---

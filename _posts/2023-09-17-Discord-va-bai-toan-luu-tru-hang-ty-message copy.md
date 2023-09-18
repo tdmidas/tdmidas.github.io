@@ -5,5 +5,5 @@ categories: [Tech-talk, database]
 tags: [database, CassandraDB, ScyllaDB]
 published: true
 image:
-  path: /assets/img/discord.png
+  path: /discord.png
 ---

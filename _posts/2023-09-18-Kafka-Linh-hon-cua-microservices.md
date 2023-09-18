@@ -5,7 +5,5 @@ categories: [Tech-talk, Microservices]
 tags: [Microservices, Kafka]
 published: true
 image:
-  path: /assets/img/kafka.png
-  width: 1200
-  height: 630
+  path: /kafka.png
 ---

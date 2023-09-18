@@ -5,5 +5,5 @@ categories: [Tech-talk, Cloud-computing]
 tags: [Cloud, AWS]
 published: true
 image:
-  path: /assets/img/aws_scale.jpg
+  path: /aws_scale.jpg
 ---
