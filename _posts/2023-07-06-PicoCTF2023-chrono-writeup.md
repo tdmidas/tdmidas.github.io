@@ -21,5 +21,3 @@ File crontab mặc định trong hệ thống được lưu ở `/etc/crontab`{:
 
 Như đã nêu bên trên, khi ta `cat` file `crontab` thì ta sẽ có flag như ảnh dưới. Và thế là bạn đã có được 100 point khá dễ dàng r nhỉ :>> .
 ![Desktop View](/assets/img/chrono1.png){: width="972" height="589" }
-
-Nếu các đạo hữu thấy bài blog này hữu ích này một comment nhe, tại hạ rất cảm kích lun ấy ạ.
