@@ -1,7 +1,7 @@
 ---
 title: "[Ethernaut CTF] Level 0: Hello Ethernaut"
 date: 2023-09-17 17:45:00 +0800
-categories: [Tech-talk, Cloud-computing]
+categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
 published: true
 
@@ -67,11 +67,11 @@ await contract.method7123949()
 
 Sau khi gọi xong phương thức, ta để ý contract có phương thức password, gọi phương thức password và submit nó vào ```contract.authenticate``` thôi.
 
-```
+```javascript
 await contract.password()
 "ethernaut0"
 ```
-```
+```javascript
 await contract.authenticate("ethernaut0")
 ```
 Submit instance ==> **Done**
