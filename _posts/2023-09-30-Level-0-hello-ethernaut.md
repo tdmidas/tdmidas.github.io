@@ -4,7 +4,8 @@ date: 2023-09-17 17:45:00 +0800
 categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
 published: true
-
+image:
+ path: https://ethernaut.zeppelin.solutions/imgs/BigLevel0.svg
 ---
 # Requirement
 
