@@ -1,6 +1,6 @@
 ---
 title: "[Ethernaut CTF] Level 6: Delegation"
-date: 2023-09-17 17:45:00 +0800
+date: 2023-10-01 10:45:00 +0800
 categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
 published: true

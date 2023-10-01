@@ -1,6 +1,6 @@
 ---
 title: "[Ethernaut CTF] Level 5: Token"
-date: 2023-09-17 17:45:00 +0800
+date: 2023-10-01 10:40:00 +0800
 categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
 published: true

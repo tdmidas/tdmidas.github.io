@@ -1,6 +1,6 @@
 ---
 title: "[Ethernaut CTF] Level 2: Fallout"
-date: 2023-09-17 17:45:00 +0800
+date: 2023-09-30 17:45:00 +0800
 categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
 published: true
