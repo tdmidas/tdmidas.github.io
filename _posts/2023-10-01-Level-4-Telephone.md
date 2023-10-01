@@ -1,5 +1,5 @@
 ---
-title: "[Ethernaut CTF] Level 3: Telephone"
+title: "[Ethernaut CTF] Level 4: Telephone"
 date: 2023-10-01 10:25:00 +0800
 categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
