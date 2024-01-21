@@ -54,7 +54,8 @@ contract Reentrance {
 - Một trong những cuộc tấn công Reentrancy nổi tiếng là DAO hack, hacker đã đánh cắp 3,6 triệu ether ( hơn $50M USD ), điều này dẫn đến giá ETH bị crashed nghiêm trọng, buộc Ethereum phải tung một update quan trọng để fix. Và sự hình thành của đồng Ethereum classic bắt đầu từ đây.
 - Bạn có thể đọc thêm về DAO hack tại [đây](https://www.gemini.com/cryptopedia/the-dao-hack-makerdao)   và các loại tấn công Reentrancy tại [đây](https://viblo.asia/p/nhung-lo-hong-trieu-do-trong-ethereum-smart-contract-phan-i-ORNZqjerl0n)  
 ## Phân tích
-- Đã gọi là low-level function thì đương nhiên nó sẽ luôn nguy hiểm, trường hợp ở đây của chúng ta là ``call``
+- Đã gọi là low-level function thì đương nhiên nó sẽ luôn nguy hiểm, trường hợp ở đây của chúng ta là ``call``  
+  
 ```solidity
   function withdraw(uint _amount) public {
     if(balances[msg.sender] >= _amount) {
@@ -65,7 +66,6 @@ contract Reentrance {
       balances[msg.sender] -= _amount;
     }
   }
- 
 ```
 - Để chuyển tiền, ngoài ``selfdestruct()`` như đã biết, chúng ta có 3 cách là ``tranfer``, ``send`` và ``call`` . Điều mà solidity luôn khuyến nghị dùng là ``tranfer`` vì nó luôn bị revert khi giao dịch lỗi , còn send và call thì không, chúng chỉ trả về ``true/false`` . 
 - Một điều để biết nữa đó là ``tranfer`` và ``send`` sẽ luôn có gas limit là 2300, nghĩa là ta chỉ thuần tùy là chuyển tiền thôi mà không thể thực hiện thêm logic nào khác . Còn ``call`` thì không giới hạn gas -> Điểm để khai thác trong reentrancy attack
