@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Midas'Blog # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Tech share # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,23 +26,23 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: tdmidas # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: TrnDngMinhi5 # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Tran Duong Minh Dai
+  email: tranduongminhdai@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com/TrnDngMinhi5 # change to your twitter homepage
+    - https://github.com/tdmidas # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.facebook.com/minhdaitranduong
+    - https://www.linkedin.com/in/tranduongminhdai
 
 google_site_verification: # fill in to your verification string
 
@@ -70,10 +70,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: https://minhdai-aws.s3.ap-southeast-1.amazonaws.com
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /ava2.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -168,6 +168,7 @@ defaults:
 
 sass:
   style: compressed
+  sass_dir: _sass/
 
 compress_html:
   clippings: all
