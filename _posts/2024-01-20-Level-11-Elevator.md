@@ -1,6 +1,6 @@
 ---
 title: "[Ethernaut CTF] Level 11: Elevator"
-date: 2023-01-20 14:09:00 +0800
+date: 2024-01-20 14:09:00 +0800
 categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
 published: true
