@@ -1,5 +1,5 @@
 ---
-title: "[Ethernaut CTF] Level 11: Elevator"
+title: "[Ethernaut CTF] Level 12: Privacy"
 date: 2024-01-23 21:19:00 +0800
 categories: [Blockchain, Ethereum]
 tags: [Blockchain, Solidity, Ethereum, CTF]
